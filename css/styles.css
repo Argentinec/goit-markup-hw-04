@@ -193,6 +193,36 @@ letter-spacing: 0.03em;
     display: flex;
 }
 
+.feauter-list-item::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.icon-antena::before {
+    background-image: url(../images/feauter/antenna1.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/feauter/clock2.svg);
+}
+
+.icon-vector::before {
+    background-image: url(../images/feauter/vector3.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/feauter/astronaut4.svg);
+}
+
+
+
 .feauter-list-item:not(:last-child) {
     margin-right: 30px;
     
@@ -400,6 +430,12 @@ color: rgba(255, 255, 255, 0.6);
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
+
+.portolio-list-item:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
 
 .portolio-list-item:nth-child(3n+3) {
     margin-right: 0px;
