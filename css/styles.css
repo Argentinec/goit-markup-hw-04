@@ -1,6 +1,6 @@
 :root {
     --main-font: "Roboto", sans-serif;
-    --secondary-font: "Raleway"; sans-serif;
+    --secondary-font: "Raleway", sans-serif;
     --accent-color: #2196F3;
 }
 
@@ -51,7 +51,16 @@ img {
     overflow: hidden;
   }
 
+/*----------COMPONENT-----------*/
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
+/*----------END COMPONENT-----------*/
 
 
 /*----------HEADER-----------*/ 
@@ -200,7 +209,7 @@ letter-spacing: 0.03em;
 
 /*----------FEUTER-----------*/
 .feauter-section-section {
-    padding-top: 108px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -369,56 +378,77 @@ letter-spacing: 0.03em;
 /*----------END OUR TEAM-----------*/
 
 /*----------CLIENT----------*/
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .client .title {
     display: flex;
     justify-content: center;
-    padding-top: 94px;
     margin-bottom: 50px;
-
 }
+
 
 .client-list {
     display: flex;
     justify-content: space-between;
-    
-    
 }
-.client-item-link {
+
+
+.client-item-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
-}
-
-.client-item {
     width: 170px;
-    height: 90px
+    height: 90px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+    fill: #AFB1B8;
 }
 
+.logo-a {
+    width: 48px;
+    height: 50px;
+}
 
+.logo-b {
+    width: 40px;
+    height: 52px;
+}
 
-.client-item-svg:hover {
+.logo-c {
+    width: 42px;
+    height: 42px;
+}
+
+.logo-d {
+    width: 80px;
+    height: 42px;
+}
+
+.logo-e {
+    width: 60px;
+    height: 48px;
+}
+
+.logo-f {
+    width: 88px;
+    height: 46px;
+}
+
+.client-item-link:hover {
     border: 1px solid var(--accent-color);
 }
 
+
 .client-item-link:hover .client-item-svg {
     fill: var(--accent-color);
-
-    /*---------END-CLIENT----------*/
-
-/*----------COMPONENT-----------*/
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    letter-spacing: 0.03em;
-    color: #212121;
 }
-/*----------END COMPONENT-----------*/
+
+/*---------END-CLIENT----------*/
+
 
 /*----------FOOTER-----------*/
 
