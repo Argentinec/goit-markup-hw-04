@@ -37,7 +37,6 @@ img {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -136,6 +135,31 @@ letter-spacing: 0.03em;
     margin-left: auto;
 }
 
+.mail-link-svg {
+    width:16px;
+    height:12px;
+    margin-right: 10px;
+}
+
+
+.header-mail:hover .mail-link-svg,
+.header-mail:focus .mail-link-svg {
+    fill: var(--accent-color);
+}
+
+.smartphone-link-svg {
+    width:10px;
+    height:16px;
+    margin-right: 10px;
+}
+
+.heder-smartphone:hover .smartphone-link-svg,
+.heder-smartphone:focus .smartphone-link-svg {
+    fill: var(--accent-color);
+}
+
+
+
 .adress-links-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -179,7 +203,7 @@ letter-spacing: 0.03em;
      padding-top: 213px;
      padding-left: 236px;
      padding-right: 236px;
-     padding-bottom: 30px;
+     margin-bottom: 30px;
      font-weight: 900;
      font-size: 44px;
      line-height: 1.364;
@@ -359,11 +383,14 @@ letter-spacing: 0.03em;
     border-radius: 50%;
     background: #FFFFFF;
 }
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
     background-color: var(--accent-color);
 }
 
-.social-list-link:hover .social-list-svg {
+
+.social-list-link:hover .social-list-svg,
+.social-list-link:focus .social-list-svg {
     fill: #FFFFFF;
 }
 
@@ -438,12 +465,14 @@ letter-spacing: 0.03em;
     height: 46px;
 }
 
-.client-item-link:hover {
+.client-item-link:hover,
+.client-item-link:focus {
     border: 1px solid var(--accent-color);
 }
 
 
-.client-item-link:hover .client-item-svg {
+.client-item-link:hover .client-item-svg,
+.client-item-link:focus .client-item-svg{
     fill: var(--accent-color);
 }
 
@@ -455,11 +484,11 @@ letter-spacing: 0.03em;
 .footer-section {
     background: #2F303A;
     display: flex;
-    flex-direction: row:
+    flex-direction: row;
 }
 .footer-section .container {
     display: flex;
-    flex-direction: row:
+    flex-direction: row;
 }
 
 .contact-footer {
@@ -543,7 +572,8 @@ color: rgba(255, 255, 255, 0.6);
     fill: #FFFFFF;
 }
 
-.social-footer-list-link:hover {
+.social-footer-list-link:hover,
+.social-footer-list-link:focus {
     background-color: var(--accent-color);
 }
 
